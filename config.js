@@ -9,7 +9,7 @@ const DATABASE_URL =
   process.env.DATABASE_URL === undefined ? databasePath : process.env.DATABASE_URL
 module.exports = {
   VERSION: require('./package.json').version,
-  SESSION_ID: (process.env.SESSION_ID || '').trim(),
+  levanter_2419c8ca5a86d34df882cfd65381ee6c4b: (process.env.levanter_2419c8ca5a86d34df882cfd65381ee6c4b || '').trim(),
   DATABASE:
     DATABASE_URL === databasePath
       ? new Sequelize({
@@ -82,4 +82,4 @@ module.exports = {
   RENDER_API_KEY: (process.env.RENDER_API_KEY || '').trim(),
   TIMEZONE: process.env.TIMEZONE,
   CMD_REACTION: process.env.CMD_REACTION || 'true',
-}
+  pm2start.--Alif--attach--9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
